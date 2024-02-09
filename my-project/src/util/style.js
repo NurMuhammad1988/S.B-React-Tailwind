@@ -12,4 +12,4 @@ export const styles = {
     heading:
         "font-montserrat font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
 }; //ko'p ishlatiladigan stylelarni shunday qilib yozib keyin har qanday joyda  qayta qayta chaqirish mumkun ekan
-//bunga o'hshash stylelar tailwindni o'zidaham bor bu yerda custom yanishaxsiy styelar yozilayapti yani
+//bunga o'hshash stylelar tailwindni o'zidaham bor bu yerda custom yani shaxsiy styelar yozilayapti yani
