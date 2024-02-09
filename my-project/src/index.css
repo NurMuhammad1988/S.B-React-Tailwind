@@ -4,4 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  scroll-behavior: smooth;
+}
 
+body{
+  background-color: silver;
+}
