@@ -1,25 +1,26 @@
-import React from "react";
+// import React from "react";
+import { Home, Navbar } from "./components";
 import { styles } from "./util/style";
 const App = () => {
     return (
         <div className="bg-primary w-full overflow-hidden ">
-            <div
-                className={`${styles.paddingX} ${styles.flexCenter}`}
-            >
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.container} `}>
-                    <div className={`${styles.heading}`}>Navbar</div>
+                    <Navbar />
+                    {/* <Home />  */}
+                    {/* Home bu joyda turganda respons bo'lganda padding leftlari o'zgaribketdi shu sabab pastga alohida qo'yildi */}
+
                 </div>
             </div>
 
-            {/* <div className="bg-slate-500">
-                <p className={`${styles.paragraph}`}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Cupiditate optio, accusantium enim aspernatur autem ad
-                    perspiciatis consectetur recusandae? Quaerat, itaque!
-                </p>
-            </div> */}
+            <div className={`bg-primary ${styles.flexStart}`}>
+                <div className={`${styles.container}`}>
+                    <Home />
+                </div>
+            </div>
         </div>
     );
 };
 
 export default App;
+
