@@ -11,7 +11,7 @@ const Navbar = () => {
     const activeHandler = (id) => setActive(id);
 
     return (
-        <div className={`w-full  py-6  ${styles.flexBetween}`}>
+        <div className={`w-full  py-6   ${styles.flexBetween}`}>
             {/* Logo */}
             <img
                 src={logo}
@@ -31,7 +31,7 @@ const Navbar = () => {
                                  : "mr-10"
                          }
                         
-                        ${active === nav.id ? "text-white" : "text-slate-500"}
+                        ${active === nav.id ? "text-white" : "text-slate-900"}
 
                         font-montserrat font-normal cursor-pointer text-[16px] text-white hover:text-white transition-all duration-500`}
                         onClick={() => activeHandler(nav.id)}
@@ -68,7 +68,7 @@ const Navbar = () => {
                             ${
                                 active === nav.id
                                     ? "text-white"
-                                    : "text-slate-500"
+                                    : "text-slate-900"
                             }
     
                             font-montserrat font-normal cursor-pointer text-[16px] text-white
