@@ -7,7 +7,7 @@ const Contract = () => {
         <section className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>
-                    Bir necha oson qadamda <br className="sm:block hidden" />
+                    Bir necha oson qadamda <br className="sm:block hidden" />{" "}
                     kontrakt tuzish
                 </h2>
 
@@ -16,7 +16,7 @@ const Contract = () => {
                     Unde, possimus repellat! Aperiam minus omnis officia
                     eligendi esse voluptates porro laudantium?
                 </p>
-                <Button styles={'mt-10'}/>
+                <Button styles={`mt-10`}/>
             </div>
             <div className={layout.sectionImage}>
                 <img src={card} alt="card" className="w-[100%] h-[100%]" />

@@ -11,7 +11,7 @@ const Navbar = () => {
     const activeHandler = (id) => setActive(id);
 
     return (
-        <div className={`w-full  py-6   ${styles.flexBetween}`}>
+        <div className={`w- full py-6 ${styles.flexBetween}`}>
             {/* Logo */}
             <img
                 src={logo}
