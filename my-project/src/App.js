@@ -1,7 +1,16 @@
 // import React from "react";
-import { Billing, Contract, Home, Navbar } from "./components";
-import Statistics from "./components/statistics";
+import {
+    Billing,
+    Business,
+    CTA,
+    Contract,
+    Home,
+    Navbar,
+    Statistics,
+} from "./components";
+
 import { styles } from "./util/style";
+
 const App = () => {
     return (
         <div className="bg-primary w-full overflow-hidden ">
@@ -20,11 +29,15 @@ const App = () => {
                 </div>
             </div>
 
-            <div className={`  bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+            <div
+                className={`  bg-primary ${styles.paddingX} ${styles.flexCenter}`}
+            >
                 <div className={`${styles.container} `}>
                     <Statistics />
-                    <Contract/>
-                    <Billing/>
+                    <Contract />
+                    <Billing />
+                    <Business />
+                    <CTA />
                 </div>
             </div>
         </div>

@@ -39,3 +39,31 @@ export const statistics = [
         value: "+110M+",
     },
 ];
+
+export const features = [
+    {
+        id: 1,
+        icon: 'star',
+        title: "Mukofotlar",
+        content:
+            "Eng yahshi credet kartalari aksiyalar va sovrinlarning ajoyib kombinatsiyasini taklif qiladi.",
+    },
+
+    {
+        id: 2,
+        icon: 'shield',
+        title: "100% Himoyalangan",
+        content:
+            "Ma'lumotlaringiz va tranzaktsiyalaringiz xafsiz ekanligiga ishonch hosil qilish uchun faol choralar.",
+    },
+
+    {
+        id: 3,
+        icon: 'send',
+        title: "Balansni O'zgartirish",
+        content:
+            "Balansni o'tkazish credet kartasini sizga foizlarni to'lashda ko'p pul tejash imkonini beradi.",
+    },
+];
+
+
