@@ -14,7 +14,7 @@ const Business = () => {
                 <p className={` ${styles.paragraph} max-w-[550px] mt-5`}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Asperiores dolorem fugit qui deserunt et laudantium
-                    aspernatur excepturi! Sit, nihil aut?
+                    aspernatur excepturi! Sit, nihil aut?????????
                 </p>
                 <Button styles={"mt-10"} />
             </div>

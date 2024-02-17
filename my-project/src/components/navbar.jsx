@@ -31,7 +31,7 @@ const Navbar = () => {
                                  : "mr-10"
                          }
                         
-                        ${active === nav.id ? "text-white" : "text-slate-900"}
+                        ${active === nav.id ? "text-white" : "text-slate-800"}
 
                         font-montserrat font-normal cursor-pointer text-[16px] text-white hover:text-white transition-all duration-500`}
                         onClick={() => activeHandler(nav.id)}
@@ -68,7 +68,7 @@ const Navbar = () => {
                             ${
                                 active === nav.id
                                     ? "text-white"
-                                    : "text-slate-900"
+                                    : "text-slate-800"
                             }
     
                             font-montserrat font-normal cursor-pointer text-[16px] text-white

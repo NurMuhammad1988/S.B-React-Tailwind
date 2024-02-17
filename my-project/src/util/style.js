@@ -25,4 +25,3 @@ export const layout = {
     sectionImageReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
 };
 
-// 02:23:40 minutda qoldi navbarda muammo bor

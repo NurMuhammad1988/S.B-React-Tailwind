@@ -65,5 +65,3 @@ export const features = [
             "Balansni o'tkazish credet kartasini sizga foizlarni to'lashda ko'p pul tejash imkonini beradi.",
     },
 ];
-
-

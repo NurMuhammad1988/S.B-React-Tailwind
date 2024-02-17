@@ -8,7 +8,4 @@ export { default as Contract } from "./contract";
 export { default as Billing } from "./billing";
 export { default as Business } from "./business";
 export { default as CTA } from "./cta";
-
-
-
-
+export { default as Testimonials } from "./testimonials";
