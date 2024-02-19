@@ -16,6 +16,8 @@ export { default as apple } from "./apple.svg";
 export { default as send } from "./send.svg";
 export { default as shield } from "./shield.svg";
 export { default as star } from "./star.svg";
+export { default as quotes } from "./quotes.svg";
+
 
 
 

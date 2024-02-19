@@ -1,3 +1,4 @@
+import { send, shield, star } from "../assets";
 export const navigationLinks = [
     {
         id: "home",
@@ -43,7 +44,7 @@ export const statistics = [
 export const features = [
     {
         id: 1,
-        icon: 'star',
+        icon: star,
         title: "Mukofotlar",
         content:
             "Eng yahshi credet kartalari aksiyalar va sovrinlarning ajoyib kombinatsiyasini taklif qiladi.",
@@ -51,7 +52,7 @@ export const features = [
 
     {
         id: 2,
-        icon: 'shield',
+        icon: shield,
         title: "100% Himoyalangan",
         content:
             "Ma'lumotlaringiz va tranzaktsiyalaringiz xafsiz ekanligiga ishonch hosil qilish uchun faol choralar.",
@@ -59,9 +60,32 @@ export const features = [
 
     {
         id: 3,
-        icon: 'send',
+        icon: send,
         title: "Balansni O'zgartirish",
         content:
             "Balansni o'tkazish credet kartasini sizga foizlarni to'lashda ko'p pul tejash imkonini beradi.",
+    },
+];
+
+export const feedbacks = [
+    {
+        id: 1,
+        content: "Pul faqat ish qurolidir agar pulni qayerga ishlatishni bilsangiz u sizga ko'payib qaytadi",
+        name: "Herman Jenson",
+        title: "Faunder & Leader",
+    },
+
+    {
+        id: 2,
+        content: "Pul hayotingizni yengillashtiradi agar siz uni foydali joyda ishlatsangiz siz omadlisiz.",
+        name: "Stive Mark",
+        title: "Faunder & Leader",
+    },
+
+    {
+        id: 3,
+        content: "Bu yerda odamlar faqat pul va biznes, moliya va halqaro  treydinglar bilan boy bo'lishadi.",
+        name: "Kenn Gallagher",
+        title: "Faunder & Leader",
     },
 ];
