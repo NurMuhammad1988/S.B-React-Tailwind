@@ -11,11 +11,11 @@ const Home = () => {
             {/* yuqoridagi sectionga py-6  classini o'zim berdim uztozni kodidan farqi shu */}
 
             {/* Animaton image */}
-            <div className={` flex-1 ${styles.flexStart} md:my-0 my-10  `}>
+            <div className={` flex-1 ${styles.flexStart} md:my-0 my-20 `}>
                 <img
                     src={robot}
                     alt="robot"
-                    className="w-[100%] h-[100%] relative z-10 rounded-sm "
+                    className="w-[100%] h-[100%] relative z-10  rounded-sm"
                 />
 
                 {/* <div className="absolute z-[0] w-[40%] h-[35%]top-0 pink__gradient"/>

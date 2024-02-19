@@ -44,3 +44,5 @@ const FeedbackCard = ({ content, name, title, idx }) => {
 };
 
 export default FeedbackCard;
+
+// 03:20:40 minutda qoldi

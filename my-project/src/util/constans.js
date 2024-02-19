@@ -1,4 +1,13 @@
-import { send, shield, star } from "../assets";
+import {
+    airbnb,
+    binance,
+    coinbase,
+    dropbox,
+    send,
+    shield,
+    star,
+} from "../assets";
+// aslida rasimlarni aftamatik import qilib olishi kerak impor debyozib chaqirish shart emas
 export const navigationLinks = [
     {
         id: "home",
@@ -70,22 +79,114 @@ export const features = [
 export const feedbacks = [
     {
         id: 1,
-        content: "Pul faqat ish qurolidir agar pulni qayerga ishlatishni bilsangiz u sizga ko'payib qaytadi",
+        content:
+            "Pul faqat ish qurolidir agar pulni qayerga ishlatishni bilsangiz u sizga ko'payib qaytadi",
         name: "Herman Jenson",
         title: "Faunder & Leader",
     },
 
     {
         id: 2,
-        content: "Pul hayotingizni yengillashtiradi agar siz uni foydali joyda ishlatsangiz siz omadlisiz.",
+        content:
+            "Pul hayotingizni yengillashtiradi agar siz uni foydali joyda ishlatsangiz siz omadlisiz.",
         name: "Stive Mark",
         title: "Faunder & Leader",
     },
 
     {
         id: 3,
-        content: "Bu yerda odamlar faqat pul va biznes, moliya va halqaro  treydinglar bilan boy bo'lishadi.",
+        content:
+            "Bu yerda odamlar faqat pul va biznes, moliya va halqaro  treydinglar bilan boy bo'lishadi.",
         name: "Kenn Gallagher",
         title: "Faunder & Leader",
+    },
+];
+
+export const clients = [
+    {
+        id: "client-1",
+        logo: airbnb,
+    },
+
+    {
+        id: "client-2",
+        logo: binance,
+    },
+
+    {
+        id: "client-3",
+        logo: coinbase,
+    },
+
+    {
+        id: "client-4",
+        logo: dropbox,
+    },
+];
+
+export const footerLinks = [
+    {
+        title: "Jamiyat",
+        links: [
+            {
+                name: "Yordam markazi",
+                link: "https://www.sammi.ac/help-center/",
+            },
+
+            {
+                name: "Hamkorlar",
+                link: "https://www.sammi.ac/partners/",
+            },
+
+            {
+                name: "Takliflar",
+                link: "https://www.sammi.ac/suggestions/",
+            },
+
+            {
+                name: "Blog",
+                link: "https://www.sammi.ac/blog/",
+            },
+
+            {
+                name: "Yangiliklar",
+                link: "https://www.sammi.ac/newsletters/",
+            },
+        ],
+    },
+
+    {
+        title: "Foydali havola",
+        links: [
+            {
+                name: "Kontent",
+                link: "https://www.sammi.ac/content/",
+            },
+
+            {
+                name: "Qanday ishlaydi",
+                link: "https://www.sammi.ac/how-it-works/",
+            },
+
+            {
+                name: "Shartlar & Hizmatlar",
+                link: "https://www.sammi.ac/terms-and-services/",
+            },
+        ],
+    },
+
+    {
+        title: "Hamkor",
+        links: [
+            {
+                name: "Bizning hamkorimiz",
+                link: "https://www.sammi.ac/our-partner/",
+            },
+
+            {
+                name: "Hamkor Bo'ling",
+                link: "https://www.sammi.ac/become-a-partner/",
+            },
+        ],
     },
 ];
