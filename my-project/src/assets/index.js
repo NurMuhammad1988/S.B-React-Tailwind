@@ -21,6 +21,12 @@ export { default as airbnb } from "./airbnb.png";
 export { default as binance } from "./binance.png";
 export { default as coinbase } from "./coinbase.png";
 export { default as dropbox } from "./dropbox.png";
+export { default as instagram } from "./instagram.svg";
+export { default as facebook } from "./facebook.svg";
+export { default as twitter } from "./twitter.svg";
+export { default as linkedin } from "./linkedin.svg";
+
+
 
 
 
