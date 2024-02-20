@@ -70,7 +70,7 @@ const Navbar = () => {
                             ${
                                 active === nav.id
                                     ? "text-white"
-                                    : "text-amber-900"
+                                    : "text-amber-800"
                             }
     
                             font-montserrat font-normal cursor-pointer text-[16px] text-white
