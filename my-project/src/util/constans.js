@@ -19,7 +19,7 @@ export const navigationLinks = [
     },
     {
         id: "product",
-        title: "Mahsulot",
+        title: "Mahsulotlarr",
     },
     {
         id: "features",
