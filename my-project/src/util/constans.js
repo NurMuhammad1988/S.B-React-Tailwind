@@ -15,20 +15,20 @@ import {
 export const navigationLinks = [
     {
         id: "home",
-        title: "Bosh sahifa",
+        title: "Bosh sahifaaa",
     },
     {
         id: "product",
-        title: "Mahsulotlarr",
+        title: "Mahsulotlarrr",
     },
     {
         id: "features",
-        title: "Hizmatlar",
+        title: "Hizmatlarrr",
     },
 
     {
         id: "clients",
-        title: "Mijozlar",
+        title: "Mijozlarrr",
     },
 ];
 
