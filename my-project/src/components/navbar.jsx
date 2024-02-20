@@ -29,14 +29,15 @@ const Navbar = () => {
                              idx === navigationLinks.length - 1
                                  ? "mr-0"
                                  : "mr-10"
-                         }
+                          }
                         
                         ${active === nav.id ? "text-white" : "text-slate-900"}
 
                         font-montserrat font-normal cursor-pointer text-[16px] text-white hover:text-white transition-all duration-500`}
                         onClick={() => activeHandler(nav.id)}
                     >
-                        {nav.title}
+                        {/* {nav.title} */}
+                        <a href={`#${nav.id}`}>{nav.title}</a>
                     </li>
                 ))}
             </ul>
@@ -52,7 +53,7 @@ const Navbar = () => {
                 <div
                     className={`${
                         !toggleNav ? "hidden" : "flex"
-                    } p-6 absolute top-20 right-0 left-0 w-full sidebar bg-black-gradient sm:mb-44`}
+                    } p-6 absolute top-20 right-0 left-0 w-full sidebar bg-black-gradient z-[99]`}
                 >
                     <ul className=" list-none  flex justify-center items-center flex-1 flex-wrap  ">
                         {navigationLinks.map((nav, idx) => (
@@ -76,7 +77,9 @@ const Navbar = () => {
                             hover:text-white transition-all duration-500`}
                                 onClick={() => activeHandler(nav.id)}
                             >
-                                {nav.title}
+                                {/* {nav.title} */}
+                        <a href={`#${nav.id}`}>{nav.title}</a>
+
                             </li>
                         ))}
                     </ul>
